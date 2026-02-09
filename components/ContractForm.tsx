@@ -30,13 +30,11 @@ const ContractForm: React.FC = () => {
     const now = new Date();
     const submittedAt = now.toISOString();
 
-    const payload = [
-      {
+    const payload = {
         "Insira aqui os dados para a IA gerar o contrato.": prompt,
         "submittedAt": submittedAt,
         "formMode": "production"
-      }
-    ];
+      };
 
     try {
       // Start the actual request and the fake timer simultaneously
