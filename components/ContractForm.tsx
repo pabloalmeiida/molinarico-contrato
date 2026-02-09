@@ -48,7 +48,7 @@ const ContractForm: React.FC = () => {
           },
           body: JSON.stringify(payload),
         }),
-        new Promise(resolve => setTimeout(resolve, 3000)) // Fictitious 3-second delay
+        new Promise(resolve => setTimeout(resolve, 2200)) // Fictitious 2.2 seconds delay
       ]);
 
       if (response.ok) {
