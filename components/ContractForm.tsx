@@ -10,7 +10,7 @@ const ContractForm: React.FC = () => {
   const [status, setStatus] = useState<{ type: 'success' | 'error' | null, message: React.ReactNode }>({ type: null, message: '' });
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
-  const placeholderText = "Faça um contrato PJ de 12k sendo pago em 1 + 4 no boleto, com as seguintes informações: RAZÃO SOCIAL: COTAINOVA PARTICIPAÇÕES LTDA CNPJ: 55899359000134 ENDEREÇO: avenida Mauro Ramos, 1450, sala 503 RESPONSÁVEL LEGAL: Mauricio Pereira CPF: 03487336901 EMAIL: mauricio@mpadvogados.adv.br Cep 88023002, Centro, Florianópolis";
+  const placeholderText = "Faça um contrato completo PJ de 12k sendo pago em 1 + 4 no boleto, com as seguintes informações: RAZÃO SOCIAL: COTAINOVA PARTICIPAÇÕES LTDA CNPJ: 55899359000134 ENDEREÇO: avenida Mauro Ramos, 1450, sala 503 RESPONSÁVEL LEGAL: Mauricio Pereira CPF: 03487336901 EMAIL: mauricio@mpadvogados.adv.br Cep 88023002, Centro, Florianópolis";
 
   useEffect(() => {
     if (textareaRef.current) {
