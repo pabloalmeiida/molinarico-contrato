@@ -56,7 +56,7 @@ const ContractForm: React.FC = () => {
             <div className="animate-fade-in">
               <p className="mb-2">Sua solicitação foi enviada com sucesso!</p>
               <p className="text-[10px] leading-relaxed opacity-80">
-                O processo pode levar até 2 minutos para conclusão. 
+                O processo pode levar entre 2 a 4 minutos para conclusão. 
                 Por favor aguarde, em breve será subido no Autentique e o arquivo estará disponível no{' '}
                 <a 
                   href="https://drive.google.com/drive/u/2/folders/1TLBkR8gqVmozLV__hBM8IzpCroGUabof" 
